@@ -1,0 +1,20 @@
+<form #basicForm = "ngForm" (ngSubmit)="getData(basicForm.value)">
+    <input type="text"  ngModel name="name" placeholder="enter name"><br><br>
+    <input type="email" ngModel name="email" placeholder="enter email"><br><br>
+    <input type="password" ngModel name="password" placeholder="enter password"><br><br>
+    <button>Submit</button>
+</form>
+
+<p>all information of user given below. </p>
+
+
+<ul>
+    <li>{{userDetails.name}}</li>
+    <li>{{userDetails.email}}</li>
+    <li>{{userDetails.password}}</li>
+</ul>
+
+
+<ngb-alert [dismissible]="false">
+	<strong>Warning!</strong> Better check yourself, you're not looking too good.
+</ngb-alert>
