@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { TodoListComponent } from './todo/todo-list/todo-list.component';
 import { TwoWayBindComponent } from './two-way-bind/two-way-bind.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoListComponent,
-    TwoWayBindComponent
+    TwoWayBindComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
