@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { TodoListComponent } from './todo/todo-list/todo-list.component';
+import { TwoWayBindComponent } from './two-way-bind/two-way-bind.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodoListComponent
+    TodoListComponent,
+    TwoWayBindComponent
   ],
   imports: [
     BrowserModule,
