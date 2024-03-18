@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Form } from '@angular/forms';
 
 @Component({
   selector: 'app-templates-forms',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './templates-forms.component.css'
 })
 export class TemplatesFormsComponent {
+
+  loginForm(data:Form){
+    console.log(data);
+    
+  }
 
 }
