@@ -7,13 +7,15 @@ import { FormsModule } from '@angular/forms';
 import { TodoListComponent } from './todo/todo-list/todo-list.component';
 import { TwoWayBindComponent } from './two-way-bind/two-way-bind.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { TemplatesFormsComponent } from './forms/templates-forms/templates-forms.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoListComponent,
     TwoWayBindComponent,
-    PipesComponent
+    PipesComponent,
+    TemplatesFormsComponent
   ],
   imports: [
     BrowserModule,
