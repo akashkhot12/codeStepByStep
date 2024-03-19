@@ -10,6 +10,7 @@ import { PipesComponent } from './pipes/pipes.component';
 import { TemplatesFormsComponent } from './forms/templates-forms/templates-forms.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { ReactiveFormsModule } from "@angular/forms";
+import { DirectivesComponent } from './directives/directives.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ReactiveFormsModule } from "@angular/forms";
     TwoWayBindComponent,
     PipesComponent,
     TemplatesFormsComponent,
-    ReactiveFormComponent
+    ReactiveFormComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,
