@@ -8,6 +8,7 @@ import { TodoListComponent } from './todo/todo-list/todo-list.component';
 import { TwoWayBindComponent } from './two-way-bind/two-way-bind.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { TemplatesFormsComponent } from './forms/templates-forms/templates-forms.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TemplatesFormsComponent } from './forms/templates-forms/templates-forms
     TodoListComponent,
     TwoWayBindComponent,
     PipesComponent,
-    TemplatesFormsComponent
+    TemplatesFormsComponent,
+    ReactiveFormComponent
   ],
   imports: [
     BrowserModule,
