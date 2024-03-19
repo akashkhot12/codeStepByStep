@@ -7,8 +7,8 @@ import { FormGroup,FormControl,Validators} from "@angular/forms";
 })
 export class ReactiveFormComponent {
 loginForm = new FormGroup({
-user:new FormControl('',[Validators.required]),
-password:new FormControl('',[Validators.required])
+user:new FormControl('',[Validators.required,Validators.email]),
+password:new FormControl('',[Validators.required, Validators.minLength(5)])
 })
 
 loginUser(){
@@ -18,5 +18,9 @@ loginUser(){
 
  get user(){
   return this.loginForm.get('user')
+}
+
+get password(){
+  return this.loginForm.get('password')
 }
 }
